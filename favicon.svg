@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AD monogram">
+  <rect width="64" height="64" rx="12" fill="#071014"/>
+  <rect x="6.5" y="6.5" width="51" height="51" rx="9.5" fill="none" stroke="#64d8c8" stroke-width="3"/>
+  <path d="M14 49L25.5 15H31L42.5 49H35.8L33.8 42.3H22.7L20.7 49H14ZM24.4 36.4H32L28.2 23.6L24.4 36.4Z" fill="#edf6f8"/>
+  <path d="M39 15H48.2C55 15 59 19.5 59 27V37C59 44.5 55 49 48.2 49H39V15ZM45.4 21.2V42.8H48C50.9 42.8 52.6 40.8 52.6 37V27C52.6 23.2 50.9 21.2 48 21.2H45.4Z" fill="#64d8c8"/>
+</svg>
