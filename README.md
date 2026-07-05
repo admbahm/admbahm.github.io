@@ -1,40 +1,30 @@
 # Adam Deane Portfolio
 
+[![Deploy Status](https://github.com/admbahm/admbahm.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/admbahm/admbahm.github.io/actions)
+[![Link Checker](https://github.com/admbahm/admbahm.github.io/actions/workflows/link-checker.yml/badge.svg)](https://github.com/admbahm/admbahm.github.io/actions)
+
 GitHub Pages portfolio for Adam Deane.
+
+**Live Site:** [https://admbahm.github.io](https://admbahm.github.io)
 
 ## Positioning
 
-**Staff Engineer / DevOps & Test Infrastructure Leader**
+**Senior Platform Engineer & Engineering Manager**
 
-SRE • Platform Engineering • Automation • Cloud • AI Infrastructure
+Systems Engineering • High-Throughput Pipelines • SRE & Observability • Cloud Platform • Data Sovereignty
 
-Adam builds automation, reliability systems, developer tooling, and cloud-native infrastructure that make engineering teams faster, safer, and more reliable under pressure.
+Adam Deane builds deterministic, high-throughput developer platforms, local-first LLM orchestration engines, and resilient cloud-native infrastructure. Over 20 years of hands-on technical tenure leading teams and designing systems that scale reliably under pressure.
 
-## Featured Areas
+## Core Tenets & Technical Worldview
 
-- Platform engineering and developer tooling
-- SRE, observability, and operational clarity
-- CI/CD automation and deterministic release evidence
-- Android UIAutomator test infrastructure for fintech/payment systems
-- Kubernetes, Docker, Proxmox, K3s, Pi-hole, Home Assistant, and homelab operations
-- GCP and cloud engineering
-- Python, Go, Kotlin, and Rust
-- AI-assisted engineering workflows with human verification of architecture, tests, and implementation quality
+*   **Deterministic Systems Architecture over Broad AI Guesswork**: Focus on repeatable, verifiable, and deterministic outcomes instead of probabilistic AI completions for critical pipelines.
+*   **Human-In-The-Loop Engineering Verification**: Utilizing automation to amplify rather than replace engineering judgment.
+*   **Data Sovereignty & Local-First Isolation**: Executing critical computations and language models locally to protect proprietary corporate assets and candidate intellectual property.
 
-## Operating Style
+## Core Architectures
 
-- Automate repeated pain
-- Prefer deterministic systems
-- Document decisions
-- Verify with tests and observability
-- Use AI to accelerate, not replace, engineering judgment
-
-## Featured Projects
-
-- **PushBadger**: deterministic PR risk analyzer for CI/CD
-- **Proxmox / K3s Homelab**: self-hosted infrastructure lab for SRE, Kubernetes, observability, and automation
-- **DevInsight**: cross-platform log file analyzer for debugging and operational signal extraction
-- **Android UIAutomator Test Infrastructure**: real-device regression automation and cross-repo CI workflows
+*   **The Forge**: A Go-based local LLM orchestration engine that tailors resumes and interview prep materials dynamically while protecting IP through total data sovereignty.
+*   **OpenHunt**: An open-source, high-efficiency web crawling and data parsing engine written in Rust and Go, designed for highly parallel page ingestion under strict RSS memory limits.
 
 ## Local Preview
 
@@ -48,4 +38,4 @@ Then open `http://localhost:8000`.
 
 ## Deploy
 
-GitHub Pages deploys from the repository branch configured in the repo settings. Commit and push changes to that branch, then GitHub Pages will publish the updated static site.
+Deployment is automated via GitHub Actions. Pushing to the `main` branch triggers the CI pipeline which runs automated tests (like link checking and HTML validation) before publishing the updated static site to GitHub Pages.

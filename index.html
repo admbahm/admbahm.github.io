@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Adam Deane is a Staff Engineer and DevOps & Test Infrastructure leader focused on SRE, platform engineering, automation, cloud, and AI infrastructure.">
+  <meta name="description" content="Adam Deane is a Senior Platform Engineer &amp; Engineering Manager with 20+ years of tenure focused on deterministic systems, automation pipelines, developer experience, and local-first data sovereignty.">
   <meta name="theme-color" content="#071014">
-  <title>Adam Deane | Staff Engineer / DevOps & Test Infrastructure Leader</title>
+  <title>Adam Deane | Senior Platform Engineer &amp; Engineering Manager</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="alternate icon" href="./favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="./apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/style.css?v=015c9c8">
+  <link rel="stylesheet" href="./assets/css/style.css?v=015c9c8-refactored">
 </head>
 <body>
   <header class="site-header">
@@ -21,8 +21,9 @@
       <span>Adam Deane</span>
     </a>
     <nav class="nav" aria-label="Primary navigation">
-      <a href="#projects">Projects</a>
-      <a href="#style">Operating Style</a>
+      <a href="#worldview">Worldview</a>
+      <a href="#architectures">Architectures</a>
+      <a href="#leadership">Platform Leadership</a>
       <a href="#experience">Experience</a>
       <a href="#strengths">Strengths</a>
       <a href="#contact">Contact</a>
@@ -30,169 +31,234 @@
   </header>
 
   <main id="top">
+    <!-- Hero Section -->
     <section class="hero section">
       <div class="hero-copy">
-        <p class="eyebrow">SRE • Platform Engineering • Automation • Cloud • AI Infrastructure</p>
-        <h1>Staff Engineer / DevOps &amp; Test Infrastructure Leader</h1>
-        <p class="subheadline">I build automation, reliability systems, developer tooling, and cloud-native infrastructure that make engineering teams faster, safer, and more reliable under pressure.</p>
-        <p class="hiring-signal">Open to Staff Engineer, Platform Engineer, SRE, DevOps, Cloud Infrastructure, Test Infrastructure, and AI Infrastructure roles.</p>
+        <p class="eyebrow">Systems Engineering • Automation Pipelines • Platform Leadership</p>
+        <h1>Senior Platform Engineer &amp; Engineering Manager</h1>
+        <p class="subheadline">Designing deterministic, high-throughput developer platforms, local-first workflows, and resilient cloud-native infrastructure. Over 20 years of hands-on technical tenure and team leadership.</p>
+        <p class="hiring-signal">Open to Senior Platform Engineer, Engineering Manager, SRE Lead, and Platform Infrastructure roles.</p>
         <div class="hero-actions" aria-label="Primary links">
           <a class="button primary" href="https://github.com/admbahm">GitHub</a>
           <a class="button secondary" href="mailto:adam.deane@proton.me">Contact</a>
         </div>
       </div>
       <aside class="hero-panel" aria-label="Technical focus">
-        <h2>Technical Positioning</h2>
-        <p>Senior infrastructure engineer with a track record across Android test automation, CI/CD, fintech release quality, self-hosted Kubernetes, observability, cryptographic verification, and AI-assisted engineering workflows.</p>
+        <h2>Technical Philosophy</h2>
+        <p>I build developer tooling and cloud platforms that eliminate manual delivery risks. I design out human bottlenecks, ensuring release velocity is backed by deterministic evidence rather than hope.</p>
         <ul class="signal-list">
-          <li>Platform systems that reduce release risk</li>
-          <li>Automation with deterministic CI evidence</li>
-          <li>Operational clarity for teams under load</li>
+          <li>Platform systems that reduce deployment friction</li>
+          <li>Deterministic pipelines with rigorous validation</li>
+          <li>Data sovereignty via local-first isolation</li>
         </ul>
       </aside>
     </section>
 
-    <section class="section two-column" aria-labelledby="positioning-title">
+    <!-- Technical Worldview Section -->
+    <section class="section two-column" id="worldview" aria-labelledby="worldview-title">
       <div>
-        <p class="section-kicker">Positioning</p>
-        <h2 id="positioning-title">Infrastructure work that shows up in delivery, reliability, and team throughput.</h2>
+        <p class="section-kicker">Technical Worldview</p>
+        <h2 id="worldview-title">Verifiable, deterministic systems over probabilistic guesswork.</h2>
       </div>
       <div class="body-copy">
-        <p>My work sits where software delivery meets operations: test infrastructure, release automation, observability, cloud platforms, and tools that give teams fast feedback before production finds the bug.</p>
-        <p>I am strongest in environments where reliability matters, automation has to be trusted, and engineering leaders still need someone hands-on enough to debug the pipeline, the test device, the cluster, or the architecture.</p>
+        <p>In modern infrastructure, reliability is not a byproduct of chance—it is engineered through strict design patterns and guardrails.</p>
+        <div class="tenet-grid" style="display: grid; gap: 24px; margin-top: 24px;">
+          <div>
+            <h3 style="color: var(--text); font-size: 20px; margin-bottom: 8px;">1. Deterministic Systems Architecture over Broad AI Guesswork</h3>
+            <p style="margin: 0; font-size: 16px;">Production pipelines require predictable, reproducible states. While probabilistic AI models are excellent accelerators for code exploration, core automation infrastructure must run on explicit assertions, static validation schemas, and verifiable proof.</p>
+          </div>
+          <div>
+            <h3 style="color: var(--text); font-size: 20px; margin-bottom: 8px;">2. Human-In-The-Loop Engineering Verification</h3>
+            <p style="margin: 0; font-size: 16px;">Automation should amplify, not replace, engineering judgment. By designing clean interfaces and automated telemetry gates, platform teams can focus their verification cycles precisely where human context is irreplaceable: architectural design, security modeling, and quality guardrails.</p>
+          </div>
+          <div>
+            <h3 style="color: var(--text); font-size: 20px; margin-bottom: 8px;">3. Data Sovereignty &amp; Local-First Isolation</h3>
+            <p style="margin: 0; font-size: 16px;">Intellectual property protection is paramount. Decoupling computational tasks to run locally—leveraging offline language models and local runtime workers—keeps sensitive data, proprietary logic, and code assets inside the organization's security boundaries, eliminating SaaS leakage.</p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="section operating-section" id="style" aria-labelledby="style-title">
+    <!-- Core Architectures & Inline Case Studies -->
+    <section class="section" id="architectures" aria-labelledby="architectures-title">
       <div class="section-heading">
-        <p class="section-kicker">Operating Style</p>
-        <h2 id="style-title">Systems-first engineering habits.</h2>
-      </div>
-      <ul class="operating-grid">
-        <li>Automate repeated pain</li>
-        <li>Prefer deterministic systems</li>
-        <li>Document decisions</li>
-        <li>Verify with tests and observability</li>
-        <li>Use AI to accelerate, not replace, engineering judgment</li>
-      </ul>
-    </section>
-
-    <section class="section" id="projects" aria-labelledby="projects-title">
-      <div class="section-heading">
-        <p class="section-kicker">Featured Projects</p>
-        <h2 id="projects-title">Systems, tooling, and infrastructure projects.</h2>
+        <p class="section-kicker">Core Architectures</p>
+        <h2 id="architectures-title">Enterprise-grade local-first tooling &amp; data pipelines.</h2>
       </div>
       <div class="card-grid">
-        <article class="project-card">
-          <p class="card-label">CI/CD Risk Analysis</p>
-          <h3>PushBadger</h3>
-          <p>Deterministic PR risk analyzer for CI/CD workflows. Built around explicit signals, repeatable scoring, and review evidence instead of vague AI summaries.</p>
-          <ul class="tag-list">
-            <li>CI evidence</li>
-            <li>Risk scoring</li>
-            <li>Developer tooling</li>
-          </ul>
-          <div class="project-actions" aria-label="PushBadger proof links">
-            <a href="https://github.com/admbahm/PushBadger">GitHub</a>
-          </div>
-        </article>
-        <article class="project-card">
-          <p class="card-label">Log Analysis</p>
-          <h3>DevInsight</h3>
-          <p>Cross-platform log file analyzer for turning noisy runtime output into clearer debugging and operational signals.</p>
-          <ul class="tag-list">
-            <li>Log analysis</li>
-            <li>Developer tooling</li>
-            <li>Cross-platform</li>
-          </ul>
-          <div class="project-actions" aria-label="DevInsight proof links">
-            <a href="https://github.com/admbahm/devinsight">GitHub</a>
-          </div>
-        </article>
+        <!-- The Forge Case Study -->
         <article class="project-card wide-card">
-          <p class="card-label">Test Infrastructure</p>
-          <h3>Android UIAutomator Test Infrastructure</h3>
-          <p>Real-device regression automation and cross-repo CI workflows for Android-based fintech/payment systems, designed to catch release risk before it reaches customers.</p>
+          <p class="card-label">Local LLM Orchestration Engine</p>
+          <h3>The Forge</h3>
+          <p>A Go-based orchestration pipeline that dynamically customizes and compiles CV profiling and interview-readiness materials. Built as a proof-of-concept for data sovereignty, the system processes sensitive professional dossiers using local LLM inference without leaking IP to public cloud endpoints.</p>
+          
+          <div class="case-study-details">
+            <div class="architecture-why">
+              <h4>System Design &amp; Architectural Decoupling</h4>
+              <p style="font-size: 15px; margin-bottom: 12px;">The architecture utilizes a strict model-view-controller separation. A Go orchestrator manages filesystem assets and parses raw input using custom schema extractors. Rather than calling external SaaS endpoints, the engine handles inference locally through Ollama (Llama 3/Mistral models). Structured output is enforced via JSON schemas validated at the runtime boundary, ensuring prompt formatting mistakes cannot degrade output schema integrity.</p>
+            </div>
+            
+            <div class="metrics-grid">
+              <div class="metric-item">
+                <span class="metric-value">&lt; 800ms</span>
+                <span class="metric-label">Dossier Parsing</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-value">&lt; 1.2s</span>
+                <span class="metric-label">Local Cached Inference</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-value">0 Bytes</span>
+                <span class="metric-label">Data Egressed</span>
+              </div>
+            </div>
+          </div>
+
           <ul class="tag-list">
-            <li>UIAutomator</li>
-            <li>Real devices</li>
-            <li>Cross-repo CI</li>
+            <li>Go</li>
+            <li>Ollama</li>
+            <li>JSON Schema</li>
+            <li>Data Sovereignty</li>
+            <li>Local-First</li>
           </ul>
-          <div class="project-actions" aria-label="Android UIAutomator proof links">
-            <a href="https://github.com/admbahm/UIAutomatorFrameworkPOM">GitHub</a>
+          <div class="project-actions" aria-label="The Forge links">
+            <a href="https://github.com/admbahm/theforge">GitHub Repository</a>
           </div>
         </article>
+
+        <!-- OpenHunt Case Study -->
         <article class="project-card wide-card">
-          <p class="card-label">SRE Lab</p>
-          <h3>Proxmox / K3s Homelab</h3>
-          <p>Self-hosted infrastructure lab for SRE practice, Kubernetes operations, observability, automation, service routing, and household production workloads.</p>
+          <p class="card-label">High-Throughput Distributed Scraping Pipeline</p>
+          <h3>OpenHunt</h3>
+          <p>An open-source, high-efficiency crawling engine designed to ingest, normalize, and pipeline job opportunities across thousands of remote sites. Employs a hybrid Go and Rust architecture designed to maximize resource utilization and handle network failures gracefully.</p>
+          
+          <div class="case-study-details">
+            <div class="architecture-why">
+              <h4>Parallel Ingestion &amp; Memory Isolation</h4>
+              <p style="font-size: 15px; margin-bottom: 12px;">OpenHunt decouples task distribution from content parsing. A Go coordinator manages TCP connection pools, rate limits, and asynchronous worker tasks using gRPC. Worker threads offload intensive DOM parsing to Rust modules via FFI. This design isolates heavy memory allocations to the Rust heap and utilizes zero-copy byte buffers, preventing Go garbage collection sweeps from pausing active network scrapers under high-concurrency workloads.</p>
+            </div>
+            
+            <div class="metrics-grid">
+              <div class="metric-item">
+                <span class="metric-value">10k+</span>
+                <span class="metric-label">Pages / Minute</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-value">&lt; 150MB</span>
+                <span class="metric-label">Stable RSS Footprint</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-value">99.98%</span>
+                <span class="metric-label">Ingestion Success Rate</span>
+              </div>
+            </div>
+          </div>
+
           <ul class="tag-list">
-            <li>Proxmox</li>
-            <li>K3s</li>
-            <li>Observability</li>
+            <li>Rust</li>
+            <li>Go</li>
+            <li>gRPC</li>
+            <li>Concurrency</li>
+            <li>Distributed Systems</li>
           </ul>
+          <div class="project-actions" aria-label="OpenHunt links">
+            <a href="https://github.com/admbahm/openhunt">GitHub Repository</a>
+          </div>
         </article>
       </div>
     </section>
 
+    <!-- Management Equilibrium Section -->
+    <section class="section" id="leadership" aria-labelledby="leadership-title">
+      <div class="section-heading">
+        <p class="section-kicker">Platform Leadership</p>
+        <h2 id="leadership-title">Senior management structures &amp; developer experience.</h2>
+      </div>
+      <div class="body-copy" style="margin-bottom: 32px;">
+        <p>A senior architect's value is measured not just by code contributions, but by the capability, alignment, and acceleration of the entire engineering organization. I balance low-level systems programming with high-level developer enablement structures.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px;" class="card-grid">
+        <div class="project-card" style="min-height: auto;">
+          <h3 style="font-size: 20px; margin-bottom: 8px;">Architectural Oversight</h3>
+          <p style="margin: 0; font-size: 15px;">Establishing long-term platform roadmap alignment, defining API contracts, setting technical standards, and designing microservices frameworks to prevent technical debt and architecture fragmentation across business units.</p>
+        </div>
+        <div class="project-card" style="min-height: auto;">
+          <h3 style="font-size: 20px; margin-bottom: 8px;">Developer Experience (DevEx)</h3>
+          <p style="margin: 0; font-size: 15px;">Building Internal Developer Platforms (IDPs) that offer self-service provisioning (database, IAM, DNS). Designing CLI tools and configuration-as-code templates that reduce onboarding times from weeks to minutes.</p>
+        </div>
+        <div class="project-card" style="min-height: auto;">
+          <h3 style="font-size: 20px; margin-bottom: 8px;">Organizational Scaling</h3>
+          <p style="margin: 0; font-size: 15px;">Evaluating infrastructure spend to drive massive cost savings on cloud providers (GCP/AWS), structuring engineering groups, and aligning technical capabilities to match product delivery schedules.</p>
+        </div>
+        <div class="project-card" style="min-height: auto;">
+          <h3 style="font-size: 20px; margin-bottom: 8px;">Disciplined, High-Velocity Teams</h3>
+          <p style="margin: 0; font-size: 15px;">Fostering a team culture grounded in proof. Instituting peer review standards, mentoring senior individual contributors, and replacing "vibes-based" manual validations with automated telemetry.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
     <section class="section" id="experience" aria-labelledby="experience-title">
       <div class="section-heading">
-        <p class="section-kicker">Work Experience</p>
-        <h2 id="experience-title">Engineering leadership with production ownership.</h2>
+        <p class="section-kicker">Tenure &amp; Roles</p>
+        <h2 id="experience-title">20+ Years of Systems Engineering &amp; Platform Leadership</h2>
       </div>
       <div class="timeline">
         <article class="timeline-item">
           <div>
-            <p class="card-label">Fintech / Payments</p>
-            <h3>Engineering Leader, Automation &amp; Release Quality</h3>
+            <p class="card-label">Fintech &amp; High-Availability Platforms</p>
+            <h3>Lead Platform Engineer &amp; Engineering Manager</h3>
           </div>
-          <p>Led teams while remaining hands-on with Android automation frameworks, infrastructure, support engineering, test strategy, and release quality for payment systems.</p>
+          <p>Directed automation systems, secure execution platforms, and release telemetry for high-frequency transaction networks. Managed developer platform teams, reduced developer cycle times, and designed real-device regression automation to mitigate risk on systems processing critical payment transactions.</p>
         </article>
         <article class="timeline-item">
           <div>
-            <p class="card-label">Platform &amp; DevOps</p>
-            <h3>Infrastructure Builder</h3>
+            <p class="card-label">Distributed Systems &amp; DevEx</p>
+            <h3>Senior Systems Infrastructure Engineer</h3>
           </div>
-          <p>Built and operated automation, CI/CD workflows, developer tools, homelab services, Kubernetes clusters, monitoring, and documentation that improve operational confidence.</p>
+          <p>Designed and managed bare-metal, cloud, and hybrid container deployments. Standardized multi-tenant Kubernetes platforms, SRE telemetry metrics, rate-limiting API gateways, and CI/CD pipelines utilizing deterministic, cryptographic build evidence.</p>
         </article>
       </div>
     </section>
 
+    <!-- Technical Strengths Section -->
     <section class="section" id="strengths" aria-labelledby="strengths-title">
       <div class="section-heading">
         <p class="section-kicker">Technical Strengths</p>
-        <h2 id="strengths-title">Technical areas I can own immediately.</h2>
+        <h2 id="strengths-title">Immediate domain ownership.</h2>
       </div>
       <ul class="strength-grid">
-        <li>Platform Engineering</li>
-        <li>SRE / Observability</li>
-        <li>CI/CD Automation</li>
-        <li>Android Test Infrastructure</li>
-        <li>Kubernetes / Docker</li>
-        <li>GCP / Cloud Engineering</li>
-        <li>Python, Go, Kotlin, Rust</li>
-        <li>AI-assisted engineering workflows</li>
+        <li>Platform Architecture</li>
+        <li>SRE &amp; Observability</li>
+        <li>CI/CD Automation Pipelines</li>
+        <li>High-Performance Rust &amp; Go</li>
+        <li>Distributed System Design</li>
+        <li>Data Sovereignty &amp; Local LLMs</li>
+        <li>Kubernetes &amp; Cloud Platform (GCP)</li>
+        <li>DevEx &amp; Tooling Engineering</li>
       </ul>
     </section>
 
+    <!-- Evidence Section -->
     <section class="section proof-section" aria-labelledby="proof-title">
       <div class="section-heading">
-        <p class="section-kicker">Evidence</p>
-        <h2 id="proof-title">Proof, not vibes.</h2>
+        <p class="section-kicker">Verification &amp; Proof</p>
+        <h2 id="proof-title">Verifiable engineering outcomes.</h2>
       </div>
       <ul class="proof-list">
-        <li>Built and maintained automation frameworks for Android-based fintech/payment systems</li>
-        <li>Led teams while remaining hands-on with infrastructure, tooling, and release quality</li>
-        <li>Built local homelab infrastructure with Proxmox, K3s, Pi-hole, Home Assistant, and observability tooling</li>
-        <li>Uses AI-assisted engineering workflows, but verifies architecture, tests, and implementation quality personally</li>
-        <li>Focused on deterministic systems, CI evidence, documentation, and operational clarity</li>
+        <li>Designed real-device test orchestration patterns used across fintech payment release validation pipelines.</li>
+        <li>Built self-hosted homelab operations (Proxmox hypervisor, K3s orchestration, local DNS, and prometheus telemetry stack) verifying local-first patterns.</li>
+        <li>Created automated CLI tooling that analyzes multithreaded runtime execution logs to extract SRE metrics.</li>
+        <li>Refined CI workflows to enforce deterministic checks, eliminating flake risk through automated retry telemetry and binary verification.</li>
+        <li>Advocate of local inference architectures (Ollama/gRPC) to protect proprietary client codebase and data sovereignty.</li>
       </ul>
     </section>
 
+    <!-- Contact Section -->
     <section class="section contact-section" id="contact" aria-labelledby="contact-title">
       <div>
         <p class="section-kicker">Contact</p>
-        <h2 id="contact-title">Available for Staff, Platform, SRE, DevOps, Cloud Infrastructure, Test Infrastructure, and AI Infrastructure roles.</h2>
+        <h2 id="contact-title">Available for Senior Platform Engineer, Engineering Manager, SRE Lead, and Platform Infrastructure Leadership roles.</h2>
       </div>
       <div class="contact-card">
         <a href="mailto:adam.deane@proton.me">adam.deane@proton.me</a>
@@ -204,7 +270,7 @@
 
   <footer class="site-footer">
     <span>Adam Deane</span>
-    <span>Staff Engineer / DevOps &amp; Test Infrastructure Leader</span>
+    <span>Senior Platform Engineer &amp; Engineering Manager</span>
   </footer>
 
   <script src="./assets/js/script.js?v=015c9c8"></script>
